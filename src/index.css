@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Manrope';
+}
+
+:root {
+  --main-color: #f15a29;
+  --main-dark-color: #851f00;
+  --bg-color: #00031a;
+  --bg-light-color: #000321;
+  --bg-lighter-color: #12142b;
+}
+
+body {
+  background: var(--bg-color);
+  color: #fff;
+}
+
+.design {
+  width: 1rem;
+}
+
+@media(max-width: 400px) {
+  * {
+    font-size: .9rem;
+  }
+}
