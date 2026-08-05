@@ -41,7 +41,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className="py-4">
+    <div className="">
       <ul>
         {experiences.map((experience, index) => (
           <ListItem

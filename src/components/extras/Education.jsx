@@ -3,18 +3,19 @@ import ListItem from './ListItem'
 
 const Education = () => {
   return (
-    <div className='py-3'>
+    <div className="">
       <ul>
-        <ListItem 
-          mainHeading={'Secondary School Education'}
-          place={'Federal College of Education (Technical) Secondary School'}
-          duration={'September 2011 - June 2017'}
+        <ListItem
+          mainHeading={"B.Sc. Computer Science"}
+          place={"National Open University of Nigeria (NOUN)"}
+          duration={"September 2024 - Present"}
         />
-        <ListItem 
-          mainHeading={'B.Sc. Computer Science'}
-          place={'National Open University of Nigeria (NOUN)'}
-          duration={'September 2024 - Present'}
+        <ListItem
+          mainHeading={"Secondary School Education"}
+          place={"Federal College of Education (Technical) Secondary School"}
+          duration={"September 2011 - June 2017"}
         />
+
         {/* <ListItem 
           mainHeading={'Graphic Design'}
           place={'Globaltech World Computer Institute'}
@@ -32,7 +33,7 @@ const Education = () => {
         /> */}
       </ul>
     </div>
-  )
+  );
 }
 
 export default Education

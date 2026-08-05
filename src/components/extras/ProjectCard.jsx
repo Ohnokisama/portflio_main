@@ -7,7 +7,7 @@ const ProjectCard = ({item: {image, title, projectLink}}) => {
       <img src={image} alt={title} className='h-full w-full object-cover rounded-lg' />
       <div className="absolute w-full h-full bg-main/75 top-0 left-[100%] flex items-center justify-center flex-col group-hover:left-0 transition-all">
         <p className='text-2xl font-bold text-center'>{title}</p>
-        <a href={`${projectLink}`} className='mt-2'>
+        <a href={`${projectLink}`} className='mt-2' target='_blank' rel='noreferrer'>
           View Project &nbsp;
           <i className="ri-arrow-right-up-line"></i>
         </a>

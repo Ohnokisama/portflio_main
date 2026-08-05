@@ -3,7 +3,7 @@ import ListItem from './ListItem'
 
 const Achievements = () => {
   return (
-    <div className='py-4'>
+    <div className=''>
       <ul>
         <ListItem 
           mainHeading={'Most hardworking staff'}

@@ -25,7 +25,7 @@ const AboutSection = ({tab}) => {
 
     case 'skills':
       return(
-        <div className='py-4'>
+        <div className=''>
           <div className="flex gap-4 my-2">
             <p>Web Development</p> --
             <div className='text-xl flex gap-1'>
