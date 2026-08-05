@@ -43,7 +43,7 @@ const Hero = () => {
         <motion.img
           src={Avatar}
           alt="Onuoha Jephthah"
-          className="rounded-full border-4 border-[var(--main-dark-color)] shadow-lg w-[60%] md:w-2/3 bg-[var(--main-color)]"
+          className="rounded-full border-4 border-[var(--main-dark-color)] shadow-lg w-[90%] md:w-2/3 bg-[var(--main-color)]"
           animate={{ y: [0, 20, 0] }}
           transition={{
             duration: 3,
