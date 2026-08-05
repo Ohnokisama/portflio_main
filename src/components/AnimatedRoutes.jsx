@@ -11,7 +11,7 @@ const pageVariants = {
   exit: { opacity: 0 },
 };
 
-export default function AnimatedRoutes({ setMenu }) {
+export default function AnimatedRoutes() {
   const location = useLocation();
 
   return (
@@ -31,7 +31,7 @@ export default function AnimatedRoutes({ setMenu }) {
                 animate="animate"
                 exit="exit"
               >
-                <Hero setMenu={setMenu} />
+                <Hero />
               </motion.div>
             }
           />

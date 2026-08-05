@@ -4,14 +4,14 @@ import Top from "./components/Top";
 import Navbar from "./components/Navbar";
 
 function App() {
-  const [menu, setMenu] = useState("");
+  // const [menu, setMenu] = useState("");
 
   return (
     <>
       <Top />
-      <Navbar menu={menu} setMenu={setMenu} />
+      <Navbar />
 
-      <AnimatedRoutes setMenu={setMenu} />
+      <AnimatedRoutes />
     </>
   );
 }

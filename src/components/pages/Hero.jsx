@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import Resume from "../../assets/Jephthah Onuoha.pdf"
 import Avatar from "../../assets/image 2.png"
 
-const Hero = ({setMenu}) => {
+const Hero = () => {
   useEffect(() => {
     document.title = "Home | Onuoha Jephthah"
   }, [])
@@ -27,7 +27,6 @@ const Hero = ({setMenu}) => {
           <Link
             to={"/about"}
             className="py-3 px-4 bg-[var(--main-color)] font-bold md:py-4 md:px-8"
-            onClick={() => setMenu("about")}
           >
             About Me <i className="ri-arrow-right-s-line"></i>
           </Link>
@@ -44,7 +43,7 @@ const Hero = ({setMenu}) => {
         <motion.img
           src={Avatar}
           alt="Onuoha Jephthah"
-          className="rounded-full border-4 border-[var(--main-dark-color)] shadow-lg w-[90%] md:w-2/3 bg-[var(--main-color)]"
+          className="rounded-full border-4 border-[var(--main-dark-color)] shadow-lg w-[60%] md:w-2/3 bg-[var(--main-color)]"
           animate={{ y: [0, 20, 0] }}
           transition={{
             duration: 3,
